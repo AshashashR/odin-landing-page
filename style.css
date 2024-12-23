@@ -1,0 +1,186 @@
+body {
+    font-family: "Roboto", serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 8px;
+    background: #eee;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    width: 110px;
+    padding: 10px;
+}
+
+/*/////// HEADER ///////*/
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+li a, .hero_text  {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero_title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.header {
+    padding: 1em 20em 8em;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8em;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 25px;
+}
+
+.hero {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.hero_left {
+    width: 450px;
+}
+
+.hero img {
+    width: 550px;
+}
+
+.hero_btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+/*/////// INFORMATION ///////*/
+
+.information {
+    padding-bottom: 5em;
+}
+
+.information_title {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info_container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.info {
+    width: 200px;
+    text-align: center;
+    
+}
+
+.info img {
+    border: 5px #3882f6 solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+/*/////// QUOTE ///////*/
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    padding: 7em 0;
+}
+
+.quote_text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0 15.5em;
+}
+
+.quote_author {
+    font-weight: 900;
+    color: #1f2937;
+    margin-right: 36em;
+}
+
+/*/////// SIGNUP ///////*/
+
+.signup {
+    display: flex;
+    justify-content:space-around;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #f9faf8;
+    margin: 5em 25em;
+    padding: 3em 7em;
+}
+
+
+.signup_title {
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.signup_btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px #f9faf8 solid;
+    font-weight: 900;
+}
+
+/*/////// FOOTER ///////*/
+
+.footer {
+    text-align: center;
+    padding: 2em 0;
+    color:#f9faf8 ;
+}
